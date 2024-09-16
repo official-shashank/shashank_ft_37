@@ -1,6 +1,11 @@
 @import url(./hero.section.style.css);
 @import url(./navbar.style.css);
 @import url(./section-2.style.css);
+@import url(./section-3.styles.css);
+@import url(./section-4.styles.css);
+@import url(./section-5.styles.css);
+@import url(./footer.styles.css);
+
 @import url(./root.style.css);
 
 *{

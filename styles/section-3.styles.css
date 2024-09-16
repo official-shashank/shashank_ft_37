@@ -1,0 +1,82 @@
+.section-3{
+    width: 90vw;
+    padding:4rem;
+    display: flex;
+    align-items:center;
+    flex-direction: column ;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+}
+.section-3>.heading{
+    color:var(--indigo) ;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-3>p{
+    font-size: 1.3rem;
+}
+
+.section-3-container{
+    margin: auto;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    overflow: scroll;
+}
+.card{
+    margin: 1rem;
+    width: 35%;
+    /* background-color: aqua; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.card>span{
+  
+    font-size: 1.2rem;
+}
+
+.card-bottom-section{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    font-size: 1.1rem;
+    gap: 2rem;
+}
+
+.card-bottom-section-left{
+    display: flex;
+    flex-direction: column;
+    
+}
+.card-bottom-section-left>.qty{
+    color: var(--pink);
+    font-weight: 700;
+    
+}
+.card-bottom-section-mid{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.card-bottom-section-mid>.qty{
+    font-weight: 700;
+}
+.card-bottom-section-right{
+    display: flex;
+    flex-direction: column;
+
+}
+.card-bottom-section-right>.qty{
+    font-weight: 700;
+}
+.more-class-btn{
+    margin-top: 2rem;
+    background-color: var(--pink);
+    scale: 1.2;
+}
